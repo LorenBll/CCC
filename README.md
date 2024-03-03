@@ -1,5 +1,5 @@
 # CCC
-CCC stands for *Cancel Cancel Culture*. This tool 
+CCC stands for *Cancel Cancel Culture*. This tool allows users to download single youtube videos, playlists and videos from a specific channel, saving them locally to prevent them from being cancelled.
 
 
 
