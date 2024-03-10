@@ -103,20 +103,21 @@ def main ():
 
     
     #. input of zip file name
-    nameOf_zipFile = None
-    while True:
-        nameOf_zipFile = input("Enter the name of the zip file: ")
-        
-        if nameOf_zipFile != "":
+    zipFile = None
+    if not isinstance(yt, pytube.YouTube): 
+        while True:
+            nameOf_zipFile = input("Enter the name of the zip file: ")
             
-            if ".zip" not in nameOf_zipFile:
-                nameOf_zipFile += ".zip"
+            if nameOf_zipFile != "":
+                
+                if ".zip" not in nameOf_zipFile:
+                    nameOf_zipFile += ".zip"
+                
+                zipFile = zipfile.ZipFile(nameOf_zipFile, "w")
+                
+                break
             
-            zipFile = zipfile.ZipFile(nameOf_zipFile, "w")
-            
-            break
-        
-        print("Invalid name. Please try again.")
+            print("Invalid name. Please try again.")
         
         
         
