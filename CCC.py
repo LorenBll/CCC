@@ -124,9 +124,7 @@ def main ():
     #. download
     download( yt , pathOf_download , zipFile )
     
-     
-            
-    print("")
+
             
     print("Thank you for using Cancel Cancel Culture!")
     
