@@ -45,6 +45,7 @@ def download ( yt , pathOf_download , zipFile ):
         return
     
     # download of a playlist or channel
+    numberOf_videos = len(yt.videos) # number of videos in the playlist or channel
     for video in yt.videos:
         video.title = remove_illegalCharacters_fromString(video.title)
         
@@ -53,6 +54,8 @@ def download ( yt , pathOf_download , zipFile ):
         # add the video to the zip file and remove the video from output_path
         zipFile.write(video.title+".mp4")
         os.remove(video.title+".mp4")
+        
+        print("Downloaded " + str(yt.videos.index(video)+1) + " of " + str(numberOf_videos) + " videos.")
     
     zipFile.close()
         
