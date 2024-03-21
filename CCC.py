@@ -25,9 +25,6 @@ def instance_ytObject ( url ):
     elif "playlist" in url:
         yt = pytube.Playlist(url)
         return yt
-    elif "channel" in url:
-        yt = pytube.Channel(url)
-        return yt
     
     return None
 

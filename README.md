@@ -1,5 +1,5 @@
 # CCC
-CCC stands for *Cancel Cancel Culture*. This tool allows users to download single youtube videos, playlists and videos from a specific channel, saving them locally to prevent their cancellation.
+CCC stands for *Cancel Cancel Culture*. This tool allows users to download single youtube videos and playlists, saving them locally to prevent their cancellation.
 
 
 
@@ -34,7 +34,7 @@ pip install pytube
 To use CCC run the script as you'd do normally, and stick to the following instructions:
 
 - When prompted, enter the URL of the video, playlist or channel you want to download. 
-    *Note that if you want to download a playlist or a channel you have to follow the following format: `https://www.youtube.com/playlist?list=...` or `https://www.youtube.com/@...`*.
+    *Note that if you want to download a playlist or a channel you have to follow the following format: `https://www.youtube.com/playlist?list=...`*.
 
 - Choose the download path for the video, playlist or channel you want to download.
     *Note that the format of the path must be `C:\folder1\folder2\folder3\` or `/folder1/folder2/folder3/`*. 
