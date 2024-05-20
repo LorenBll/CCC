@@ -47,4 +47,4 @@ To use CCC run the script as you'd do normally, and stick to the following instr
 
 ## Author
 
-[DarkMatt3r06](https://github.com/DarkMatt3r06)
+[LorenBll](https://github.com/LorenBll)
