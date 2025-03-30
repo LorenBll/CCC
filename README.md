@@ -1,9 +1,9 @@
 # CCC
-CCC stands for *Cancel Cancel Culture*. This tool allows users to download single youtube videos and playlists, saving them locally to prevent their cancellation.
+CCC stands for *Cancel Cancel Culture*. This tool allowed users to download single youtube videos and playlists, saving them locally to prevent their cancellation.
 
 ## Important Message
 The last and current version of this tool is [CCC v1.0](https://github.com/LorenBll/CCC/releases/tag/v0.1.0-alpha). This version is the first release of the tool and it is still in alpha stage.
-Despite saying that updates were sure to come, I have decided to suspend indefinetly the development of this tool due to lack of time and interest.
+Despite saying that updates were sure to come, I have decided to suspend indefinetly the development of this tool due to lack of time and interest. Also, the YouTube API that was used to download has stopped working, and hence the whole project doesn't work any longer.
 
 
 
